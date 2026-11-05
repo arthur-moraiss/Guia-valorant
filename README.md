@@ -1,15 +1,6 @@
 # Valorant - Site em HTML
 
 Site simples sobre o jogo **Valorant**, feito como trabalho de HTML. O projeto tem três páginas ligadas entre si por links (`<a>`), com informações sobre mapas, personagens e skins de armas.
-
-## Integrantes
-
-- Nome 1
-- Nome 2
-- Nome 3
-- Nome 4
-- Nome 5
-
 ## Páginas
 
 | Página | Arquivo | Conteúdo |
