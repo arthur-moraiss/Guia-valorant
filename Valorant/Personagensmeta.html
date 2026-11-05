@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melhores personagens</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            list-style: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .galeria figure {
+            margin: 0;
+        }
+
+        .galeria img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.05);
+            border-color: #333;
+        }
+
+        .galeria figcaption {
+            margin-top: 6px;
+            font-size: 14px;
+        }
+
+        footer {
+            margin-top: 40px;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Melhores personagens</h1>
+        <p>Bem-vindo à página de melhores personagens do Valorant!</p>
+
+        <nav>
+            <ul>
+                <li><a href="skins.html">Armas</a></li>
+                <li><a href="Personagensmeta.html">Personagens meta</a></li>
+                <li><a href="mapas.html">Mapas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Lista de personagens no meta</h2>
+            <ol>
+                <li>Neon</li>
+                <li>Jett</li>
+                <li>Chamber</li>
+                <li>Omen</li>
+                <li>Sova</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Descrição dos personagens</h2>
+            <div class="galeria">
+                <figure>
+                    <img src="html/img/jett.png.jpg" alt="Personagem Jett" title="Jett">
+                    <figcaption>
+                        <strong>Jett</strong>: Um personagem ágil com habilidades de movimento rápidas.
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="html/img/neon.png.jpg" alt="Personagem Neon" title="Neon">
+                    <figcaption>
+                        <strong>Neon</strong>: Um personagem eletrificado com habilidades de ataque e defesa.
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="html/img/275px-Omen_Artwork_Full.png.webp" alt="Personagem Omen" title="Omen">
+                    <figcaption>
+                        <strong>Omen</strong>: Um personagem com habilidades de teletransporte e esconderijo.
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="html/img/sova.png.jpg" alt="Personagem Sova" title="Sova">
+                    <figcaption>
+                        <strong>Sova</strong>: Um personagem com habilidades de reconhecimento e ataque à distância.
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="html/img/Chamber.png.jpg" alt="Personagem Chamber" title="Chamber">
+                    <figcaption>
+                        <strong>Chamber</strong>: Um personagem com habilidades de defesa e armas precisas.
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section>
+            <h2>Personagens</h2>
+            <table>
+                <caption>Personagens mais fortes do meta </caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Posição</th>
+                        <th scope="col">Personagem</th>
+                        <th scope="col">Habilidade</th>
+                        <th scope="col">Função</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1º</td>
+                        <td>Neon</td>
+                        <td>Correr feito doido</td>
+                        <td>Duelista</td>
+                    </tr>
+                    <tr>
+                        <td>2º</td>
+                        <td>Jett</td>
+                        <td>Dar dash</td>
+                        <td>Duelista</td>
+                    </tr>
+                    <tr>
+                        <td>3º</td>
+                        <td>Chamber</td>
+                        <td>Muita bala</td>
+                        <td>Sentinela</td>
+                    </tr>
+                    <tr>
+                        <td>4º</td>
+                        <td>Omen</td>
+                        <td>Teletransporte</td>
+                        <td>Controlador</td>
+                    </tr>
+                    <tr>
+                        <td>5º</td>
+                        <td>Sova</td>
+                        <td>Spotar</td>
+                        <td>Iniciador</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main> 
+</body>
+</html>

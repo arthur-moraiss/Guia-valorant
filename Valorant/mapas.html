@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapas - Valorant</title>
+    <link rel="icon" type="image/png" href="../Valorant/html/hd-valorant-official-symbol-sign-logo-png-701751694788082d3btqfskcj.png">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .galeria figure {
+            margin: 0;
+        }
+
+        .galeria img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+
+        .galeria img:hover {
+            transform: scale(1.05);
+            border-color: #333;
+        }
+
+        .galeria figcaption {
+            margin-top: 6px;
+            font-size: 14px;
+        }
+
+        form {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+        <header>
+        <h1>mapas mais utilizadas</h1>
+        <p>Bem-vindo à página de mapas do Valorant!</p>
+
+        <nav>
+            <ul>
+                <li><a href="skins.html">Armas</a></li>
+                <li><a href="Personagensmeta.html">Personagens meta</a></li>
+                <li><a href="mapas.html">Mapas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section>
+            <h2>Lista de mapas</h2>
+            <ol>
+                <li>Lotus</li>
+                <li>Bind</li>
+                <li>Abyss</li>
+                <li>Haven</li>
+                <li>Summit</li>
+            </ol>
+        </section>
+
+       <div> 
+        <form>
+            <label for="mapa">Buscar mapa:</label>
+            <input type="text" id="mapa" name="mapa" placeholder="Digite o nome do mapa">
+            <button type="submit">Enviar</button>
+        </form>
+        </div>
+
+        <section>
+            <h2>Descrição dos mapas</h2>
+            <div class="galeria">
+                <figure>
+                    <img src="../Valorant/html/maxresdefault.jpg" alt="Mapa Lotus" title="Lotus">
+                    <figcaption>
+                        <strong>Lotus</strong>: Um mapa com uma estrutura complexa e múltiplas rotas de movimento.
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="../Valorant/html/img-principal.webp" alt="Mapa Bind" title="Bind">
+                    <figcaption>
+                        <strong>Bind</strong>: Um mapa com uma configuração única e desafios de posicionamento.
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="../Valorant/html/Loading_Screen_Abyss.webp" alt="Mapa Abyss" title="Abyss">
+                    <figcaption>
+                        <strong>Abyss</strong>: Um mapa com uma estrutura única e desafios de posicionamento.
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="../Valorant/html/Featured---Valorant-Guide-to-the-Haven-Map.avif" alt="Mapa Haven" title="Haven">
+                    <figcaption>
+                        <strong>Haven</strong>: Um mapa com uma configuração segura e abrigo para os jogadores.
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="../Valorant/html/Summit_Loading_Screen_under_6MB-1024x550.jpg" alt="Mapa Summit" title="Summit">
+                    <figcaption>
+                        <strong>Summit</strong>: Um mapa com uma estrutura gelada e desafios de movimento.
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
