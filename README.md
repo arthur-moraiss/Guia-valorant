@@ -37,21 +37,12 @@ front/
 
 1. Baixe ou clone o repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/NOME-DO-REPO.git
-   ```
+   git clone https://github.com/arthur-moraiss/NOME-DO-REPO.git
+      ```
 2. Abra a pasta do projeto.
 3. Dê dois cliques em qualquer arquivo `.html` para abrir no navegador, ou use a extensão **Live Server** no VS Code.
 4. Use o menu de navegação no topo para trocar de página.
 
-## Divisão de tarefas
-
-| Integrante | Parte feita |
-| --- | --- |
-| Nome 1 | Página de mapas |
-| Nome 2 | Página de personagens |
-| Nome 3 | Página de skins |
-| Nome 4 | Imagens e conteúdo |
-| Nome 5 | Revisão e organização do projeto |
 
 ## Observações
 
